@@ -4,12 +4,25 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="./game.js" defer></script>
+    <link rel="stylesheet" href="./style.css" />
     <title>Rock Paper Scissors</title>
   </head>
   <body>
-    <h1>Welcome to Rock Paper Scissors</h1>
-    <h3>(console.log style)</h3>
-    <p>If you do not enter a proper selection the prompt will ask again</p>
-    <script src="./game.js"></script>
+    <h1>Rock Paper Scissors</h1>
+    <h3>Best of 5 against a computer</h3>
+    <h5>(choose wisely)</h5>
+    <div id="input">
+      <button id="rock">ROCK</button>
+      <button id="paper">PAPER</button>
+      <button id="scissors">SCISSORS</button>
+    </div>
+    <div id="output">
+      <p id="roundResult"></p>
+      <p id="playerResult"></p>
+      <p id="computerResult"></p>
+      <p id="scoreBoard"></p>
+      <p id="gameReset"></p>
+    </div>
   </body>
 </html>

@@ -1,0 +1,11 @@
+/***style.css***/
+
+body {
+  text-align: center;
+  background-color: rgb(226, 213, 213);
+}
+
+button {
+  padding: 16px;
+  border-radius: 4px;
+}
