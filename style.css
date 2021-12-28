@@ -2,10 +2,23 @@
 
 body {
   text-align: center;
-  background-color: rgb(226, 213, 213);
+  background: linear-gradient(90deg, #ccffff, #ffcccc);
 }
 
 button {
-  padding: 16px;
-  border-radius: 4px;
+  padding: 10px 20px 10px 20px;
+  border-radius: 5px;
+  background-color: #ccffff;
+  font-size: 20px;
+}
+
+button:hover {
+  animation-name: background-color;
+  animation-duration: 500ms;
+  animation-fill-mode: forwards;
+}
+@keyframes background-color {
+  100% {
+    background-color: #56a5eb;
+  }
 }
